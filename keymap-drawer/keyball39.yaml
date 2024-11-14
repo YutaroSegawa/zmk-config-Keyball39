@@ -279,7 +279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '7':
+  OFF_LAYER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -321,6 +321,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [0, 9]
-  k: {t: snipe, h: toggle}
+  k: {t: OFF_LAYER, h: toggle}
 - p: [1, 8]
   k: {t: default, h: toggle}
