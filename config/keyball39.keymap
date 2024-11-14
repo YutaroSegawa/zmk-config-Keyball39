@@ -58,6 +58,17 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        layer06 {
+            bindings = <&to 6>;
+            key-positions = <0 9>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
