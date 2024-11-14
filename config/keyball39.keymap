@@ -62,7 +62,7 @@
         compatible = "zmk,combos";
 
         layer06 {
-            bindings = <&to 6>;
+            bindings = <&to 7>;
             key-positions = <0 9>;
             timeout-ms = <10>;
             require-prior-idle-ms = <5>;
@@ -149,7 +149,7 @@
             >;
         };
 
-        layer_7 {
+        OFF_LAYER {
             bindings = <
 &none  &none  &none  &none  &none                &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none                &none  &none  &none  &none  &none
