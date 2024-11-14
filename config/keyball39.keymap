@@ -67,6 +67,13 @@
             timeout-ms = <10>;
             require-prior-idle-ms = <5>;
         };
+
+        layer00 {
+            bindings = <&to 0>;
+            key-positions = <1 8>;
+            timeout-ms = <10>;
+            require-prior-idle-ms = <5>;
+        };
     };
 
     keymap {
@@ -139,6 +146,15 @@
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none                       &none
             >;
         };
     };
